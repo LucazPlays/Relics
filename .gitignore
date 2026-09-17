@@ -1,0 +1,23 @@
+# Maven build outputs
+target/
+*.jar
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Resource pack builds (regeneratable via scripts/)
+*.zip
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

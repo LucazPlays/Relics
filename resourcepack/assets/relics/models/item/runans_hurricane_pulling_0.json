@@ -1,0 +1,6 @@
+{
+  "parent": "relics:item/bow_base",
+  "textures": {
+    "layer0": "relics:item/runans_hurricane_pulling_0"
+  }
+}

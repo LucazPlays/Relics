@@ -1,0 +1,30 @@
+name: Relics
+version: 1.0.0
+main: com.notschie.relics.RelicsPlugin
+api-version: '1.21'
+description: Legendäre Relikt-Items, einmalig pro Server, UUID-getrackt, Anti-Dupe geschützt.
+authors: [notschie]
+commands:
+  relic:
+    description: Relikt-Verwaltung
+    usage: /relic <register|give|revoke|tracker|reload|tests|pack> [...]
+    aliases: [relics]
+permissions:
+  relics.admin.register:
+    description: Owner-Permission registrieren (UUID-Permission erzeugen)
+    default: op
+  relics.admin.give:
+    description: Relikt einem Spieler geben (per Owner-UUID-Permission geprüft)
+    default: false
+  relics.admin.revoke:
+    description: Relikt von einem Spieler entfernen
+    default: false
+  relics.tracker:
+    description: Tracking-Menü anzeigen (Chat + GUI)
+    default: op
+  relics.tests:
+    description: In-Game Debug-Tests ausführen (für Entwicklung)
+    default: op
+  relics.admin.pack:
+    description: Resource-Pack verwalten (URL, Host, Push, Status)
+    default: op

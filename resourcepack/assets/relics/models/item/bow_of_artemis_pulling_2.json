@@ -1,0 +1,6 @@
+{
+  "parent": "relics:item/bow_base",
+  "textures": {
+    "layer0": "relics:item/bow_of_artemis_pulling_2"
+  }
+}
